@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+  <title>Other Work</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/other.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link href='css/bootstrap.min.css' rel='stylesheet'>
+<script src="https://ajax.googleapis.com/ajax/libs.jquery.2.4.1/jquery.min.js"></script>
+<link rel="stylesheet" id="coToolbarStyle" href="chrome-extension://cjabmdjcfcfdmffimndhafhblfmpjdpe/toolbar/styles/placeholder.css" type="text/css">
+<script type="text/javascript" id="cosymantecbfw_removeToolbar">(function () {				var toolbarElement = {},					parent = {},					interval = 0,					retryCount = 0,					isRemoved = false;				if (window.location.protocol === 'file:') {					interval = window.setInterval(function () {						toolbarElement = document.getElementById('coFrameDiv');						if (toolbarElement) {							parent = toolbarElement.parentNode;							if (parent) {								parent.removeChild(toolbarElement);								isRemoved = true;								if (document.body && document.body.style) {									document.body.style.setProperty('margin-top', '0px', 'important');								}							}						}						retryCount += 1;						if (retryCount > 10 || isRemoved) {							window.clearInterval(interval);						}					}, 10);				}			})();
+</script>
+</head>
+
+<body>
+  <div class="jumbotron jumbotron-fluid"
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="Images/pencil.png" height="42" width="42"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="work.html">Digital Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="other.html">Other work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="contact.hmtl">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="Other">
+    <h2> Other Work </h2>
+
+    <p> I've also completed some projects such as posters and sketches. I spend most of my time doing digital art, but it's nice to occasionally go back to pen & paper once in a while!</p>
+    </div>
+
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-family: sans-serif;
+        align-items: center;
+    }
+
+    .header {
+        text-align: center;
+        padding: 32px;
+    }
+
+    .row {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    /* Create four equal columns that sits next to each other */
+    .column {
+        -ms-flex: 25%; /* IE10 */
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+    }
+
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+        .column {
+            -ms-flex: 50%;
+            flex: 50%;
+            max-width: 50%;
+        }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+        .column {
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+        }
+    }
+    </style>
+
+
+
+
+    <!-- Photo Grid -->
+    <div class="row">
+      <div class="column">
+        <img src="Images/Whale.jpg" style="width:100%" onmouseover="this.src='Images/Whale_blur.jpg'" onmouseout="this.src='Images/Whale.jpg'">
+        <img src="Images/W_poster.jpg" style="width:100%" onmouseover="this.src='Images/Westeros_blur.jpg'" onmouseout="this.src='Images/W_poster.jpg'">
+      </div>
+      <div class="column">
+        <img src="Images/LATT_sketch.jpg" style="width:100%" onmouseover="this.src='Images/LATT_blur.jpg'" onmouseout="this.src='Images/LATT_sketch.jpg'">
+        <img src="Images/It.jpg" style="width:100%" onmouseover="this.src='Images/It_blur.jpg'" onmouseout="this.src='Images/It.jpg'">
+      </div>
+      <div class="column">
+        <img src="Images/101_paint.jpg" style="width:100%" onmouseover="this.src='Images/101_blur.jpg'" onmouseout="this.src='Images/101_paint.jpg'">
+        <img src="Images/middle_earth.jpg" style="width:100%" onmouseover="this.src='Images/middle_earth_blur.jpg'" onmouseout="this.src='Images/middle_earth.jpg'">
+      </div>
+      <div class="column">
+        <img src="Images/st.jpg" style="width:100%" onmouseover="this.src='Images/st_blur.jpg'" onmouseout="this.src='Images/st.jpg'">
+        <img src="Images/dog.jpg" style="width:100%" onmouseover="this.src='Images/dog_blur.jpg'" onmouseout="this.src='Images/dog.jpg'">
+      </div>
+
+    </div>
+
+  </body>
+  </html>
